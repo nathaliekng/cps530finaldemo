@@ -9,11 +9,10 @@
 
 <script>
 import Navbar from '@/components/Navbar'
-import page4 from '@/views/page4'
 
 export default {
   name: 'App',
-  components:{Navbar, page4},
+  components:{Navbar},
   data: () => ({
     //
   }),
