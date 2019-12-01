@@ -45,10 +45,10 @@
         <h2 style = "font-family: Calibri; text-align:center">How Does it Work?</h2>
         <br>
 
-        <p class="blocktext text">The backend part of our website is our contact function. On the top right of the page, you can click the contact button to try 
+        <p class="blocktext text">The backend part of our website is our feedback function. On the top right of the page, you can click the feedback button to try 
             out this function.</p>
         <p class="blocktext text">For this segment of our website, we had to create a different application that was completely seperate from our website's 
-            main code. Having an entirely different section for our contact page was a much easier process compared to merging our Vue, Vuetify, and Flask codes.</p>
+            main code. Having an entirely different section for our feedback page was a much easier process compared to merging our Vue, Vuetify, and Flask codes.</p>
         <p class="blocktext text">We formatted the layout of the page with simple HTML, CSS, and Bootstrap.The following code shows how we obtain  input from the user.</p>
         <img src="/backend1.png" alt="" style="width:900px;height:360px;" class="center">
         <br>
@@ -59,10 +59,10 @@
         <br>
         <br>
 
-        <p class="blocktext text">In order to initialize the contact page, we first added routes to the main page, then also added on controllers.
+        <p class="blocktext text">In order to initialize the feedback page, we first added routes to the main page, then also added on controllers.
             The controller contains a method for each of the available operations on the site.</p>
         <p class="blocktext text">There are two parts to our controller, the first is "get" and the other is "post". The "get" route directs the user to the 
-            main contact page. The "post" route is used when the form is submitted by the user.</p>
+            main feedback page. The "post" route is used when the form is submitted by the user.</p>
         <img src="/backend3.png" alt="" style="width:900px;height:275px;" class="center">
         <br>
         <br>
@@ -73,6 +73,7 @@
 
 <script>
 // @ is an alias to /src
+
 export default {
 }
 </script>
